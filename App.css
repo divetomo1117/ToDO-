@@ -1,0 +1,43 @@
+/* App.css */
+
+.container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 20px; /* 親の内側に均等な余白 */
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  font-family: sans-serif;
+  box-sizing: border-box; /* 親に追加しておくと安心 */
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container input {
+  width: 100%;
+  box-sizing: border-box; /* これ重要！ */
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.container button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #1a73e8;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+  background-color: #155ab6;
+}

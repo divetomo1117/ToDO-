@@ -1,0 +1,61 @@
+.login-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 20px; /* ← 親の内側に均等な余白 */
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  font-family: sans-serif;
+  box-sizing: border-box; /* ← これも親に追加しておくと安心 */
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-container input {
+  width: 100%;
+  box-sizing: border-box; /* ← これ重要！ */
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .login-container,
+  .register-container,
+  .todo-container,
+  .home-container,
+  .Users-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  button {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .batch-buttons {
+    flex-direction: column;
+  }
+
+  .batch-buttons button {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+

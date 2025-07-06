@@ -1,0 +1,79 @@
+.Users-container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.Users-container h2 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.Users-container ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: left;
+}
+
+.Users-container li {
+  padding: 8px 12px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+  color: #333;
+}
+
+.Users-container li:last-child {
+  border-bottom: none;
+}
+
+.Users-container p {
+  font-style: italic;
+  color: #666;
+}
+
+.Users-container a {
+  margin: 0 10px;
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.Users-container a:hover {
+  color: #155ab6;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  .login-container,
+  .register-container,
+  .todo-container,
+  .home-container,
+  .Users-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  button {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .batch-buttons {
+    flex-direction: column;
+  }
+
+  .batch-buttons button {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
