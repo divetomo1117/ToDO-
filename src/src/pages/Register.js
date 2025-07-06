@@ -27,7 +27,7 @@ function Register() {
     users.push({ userId, password });
     localStorage.setItem('users', JSON.stringify(users));
 
-    alert(`登録が完了したで。${userId}、なんで寺尾に手伝わせてんねん。自分でやれよ。`);
+    alert('登録が完了しました！ログイン画面に移動します');
 
     // 登録後にログイン画面へ遷移
     navigate('/login');

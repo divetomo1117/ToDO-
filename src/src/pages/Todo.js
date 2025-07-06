@@ -103,7 +103,7 @@ function Todo() {
       {/* ▼ ユーザー情報一覧ボタン（外に配置） ▼ */}
       {userId === 'tomo' && (
         <div style={{ textAlign: 'center', marginTop: '30px' }}>
-          <button onClick={() => navigate('/Users')}>
+          <button onClick={() => navigate('/userlist')}>
             🧾 ユーザー情報一覧
           </button>
         </div>

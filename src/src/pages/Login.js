@@ -22,7 +22,7 @@ function Login() {
       // ログイン成功したユーザー情報を保存（例: localStorage）
       localStorage.setItem('currentUser', JSON.stringify(user));
 
-      alert(`ログイン成功！${userId}、ちょっとToDo画面来れる～？`);
+      alert('ログイン成功！ToDo画面へ移動します');
 
       // Todo画面へ遷移
       navigate('/todo');
