@@ -104,7 +104,7 @@ function Todo() {
       {userId === 'tomo' && (
         <div style={{ textAlign: 'center', marginTop: '30px' }}>
           <button onClick={() => navigate('/Users')}>
-            🧾 ユーザー情報一覧aa
+            🧾 ユーザー情報一覧
           </button>
         </div>
       )}
