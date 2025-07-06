@@ -1,0 +1,79 @@
+/* Home.css */
+
+.home-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.home-container h2 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.home-container p {
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.btn {
+  flex: 1;
+  padding: 12px 0;
+  background-color: #1a73e8;
+  color: white;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #155ab6;
+}
+
+.btn-secondary {
+  background-color: #555;
+}
+
+.btn-secondary:hover {
+  background-color: #333;
+}
+
+@media screen and (max-width: 600px) {
+  .login-container,
+  .register-container,
+  .todo-container,
+  .home-container,
+  .Users-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  button {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .batch-buttons {
+    flex-direction: column;
+  }
+
+  .batch-buttons button {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
